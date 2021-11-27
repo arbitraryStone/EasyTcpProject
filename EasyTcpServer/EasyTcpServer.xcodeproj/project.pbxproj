@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109F20DE270D6B5A00258704 /* MsgBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F20DC270D6B5A00258704 /* MsgBuffer.cpp */; };
+		109F20E1270D7CA200258704 /* CellLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 109F20DF270D7CA200258704 /* CellLog.cpp */; };
+		10A42932270C32DD0013A31B /* CellSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A42930270C32DD0013A31B /* CellSemaphore.cpp */; };
+		10A42935270C59B90013A31B /* CellThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10A42933270C59B90013A31B /* CellThread.cpp */; };
+		10AA20892702B52D0020DD35 /* CellTask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA20872702B52D0020DD35 /* CellTask.cpp */; };
+		10AA20A727035F600020DD35 /* MemoryMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA20A527035F600020DD35 /* MemoryMgr.cpp */; };
+		10AA20A827035F600020DD35 /* Alloctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10AA20A627035F600020DD35 /* Alloctor.cpp */; };
+		10E1D4802701845A00657C19 /* MyServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10E1D47E2701845A00657C19 /* MyServer.cpp */; };
+		10F174DC2700170200CB6CC8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F174DB2700170200CB6CC8 /* main.cpp */; };
+		10F174E72700175900CB6CC8 /* EasyTcpServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F174E52700175900CB6CC8 /* EasyTcpServer.cpp */; };
+		10F174EA2700176B00CB6CC8 /* CellTimestamp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F174E82700176B00CB6CC8 /* CellTimestamp.cpp */; };
+		10F174F22700288E00CB6CC8 /* CellServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10F174F02700288E00CB6CC8 /* CellServer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		10F174D62700170200CB6CC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		109F20DC270D6B5A00258704 /* MsgBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MsgBuffer.cpp; sourceTree = "<group>"; };
+		109F20DD270D6B5A00258704 /* MsgBuffer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MsgBuffer.hpp; sourceTree = "<group>"; };
+		109F20DF270D7CA200258704 /* CellLog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CellLog.cpp; sourceTree = "<group>"; };
+		109F20E0270D7CA200258704 /* CellLog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellLog.hpp; sourceTree = "<group>"; };
+		109F20E3270D8F2500258704 /* CellNetWork.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellNetWork.hpp; sourceTree = "<group>"; };
+		10A42930270C32DD0013A31B /* CellSemaphore.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CellSemaphore.cpp; sourceTree = "<group>"; };
+		10A42931270C32DD0013A31B /* CellSemaphore.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellSemaphore.hpp; sourceTree = "<group>"; };
+		10A42933270C59B90013A31B /* CellThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CellThread.cpp; sourceTree = "<group>"; };
+		10A42934270C59B90013A31B /* CellThread.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellThread.hpp; sourceTree = "<group>"; };
+		10AA20872702B52D0020DD35 /* CellTask.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CellTask.cpp; sourceTree = "<group>"; };
+		10AA20882702B52D0020DD35 /* CellTask.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellTask.hpp; sourceTree = "<group>"; };
+		10AA20A327035F600020DD35 /* MemoryMgr.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MemoryMgr.hpp; sourceTree = "<group>"; };
+		10AA20A427035F600020DD35 /* Alloctor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Alloctor.hpp; sourceTree = "<group>"; };
+		10AA20A527035F600020DD35 /* MemoryMgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryMgr.cpp; sourceTree = "<group>"; };
+		10AA20A627035F600020DD35 /* Alloctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Alloctor.cpp; sourceTree = "<group>"; };
+		10AA20AC270424470020DD35 /* objectPoolBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = objectPoolBase.hpp; sourceTree = "<group>"; };
+		10E1D47E2701845A00657C19 /* MyServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyServer.cpp; sourceTree = "<group>"; };
+		10E1D47F2701845A00657C19 /* MyServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyServer.hpp; sourceTree = "<group>"; };
+		10F174D82700170200CB6CC8 /* EasyTcpServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EasyTcpServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F174DB2700170200CB6CC8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		10F174E32700173F00CB6CC8 /* MessageHeader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MessageHeader.hpp; sourceTree = "<group>"; };
+		10F174E52700175900CB6CC8 /* EasyTcpServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EasyTcpServer.cpp; sourceTree = "<group>"; };
+		10F174E62700175900CB6CC8 /* EasyTcpServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EasyTcpServer.hpp; sourceTree = "<group>"; };
+		10F174E82700176B00CB6CC8 /* CellTimestamp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CellTimestamp.cpp; sourceTree = "<group>"; };
+		10F174E92700176B00CB6CC8 /* CellTimestamp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellTimestamp.hpp; sourceTree = "<group>"; };
+		10F174EC2700248200CB6CC8 /* InetEvent.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = InetEvent.hpp; sourceTree = "<group>"; };
+		10F174EE2700254A00CB6CC8 /* ClientSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ClientSocket.hpp; sourceTree = "<group>"; };
+		10F174F02700288E00CB6CC8 /* CellServer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CellServer.cpp; sourceTree = "<group>"; };
+		10F174F12700288E00CB6CC8 /* CellServer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CellServer.hpp; sourceTree = "<group>"; };
+		10F174F427002CAA00CB6CC8 /* Configuration.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Configuration.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F174D52700170200CB6CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F174CF2700170200CB6CC8 = {
+			isa = PBXGroup;
+			children = (
+				10F174DA2700170200CB6CC8 /* EasyTcpServer */,
+				10F174D92700170200CB6CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10F174D92700170200CB6CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F174D82700170200CB6CC8 /* EasyTcpServer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F174DA2700170200CB6CC8 /* EasyTcpServer */ = {
+			isa = PBXGroup;
+			children = (
+				10AA20AC270424470020DD35 /* objectPoolBase.hpp */,
+				10AA20A627035F600020DD35 /* Alloctor.cpp */,
+				10AA20A427035F600020DD35 /* Alloctor.hpp */,
+				10AA20A527035F600020DD35 /* MemoryMgr.cpp */,
+				10AA20A327035F600020DD35 /* MemoryMgr.hpp */,
+				10F174EC2700248200CB6CC8 /* InetEvent.hpp */,
+				10F174DB2700170200CB6CC8 /* main.cpp */,
+				10F174E32700173F00CB6CC8 /* MessageHeader.hpp */,
+				10F174E52700175900CB6CC8 /* EasyTcpServer.cpp */,
+				10F174E62700175900CB6CC8 /* EasyTcpServer.hpp */,
+				10F174E82700176B00CB6CC8 /* CellTimestamp.cpp */,
+				10F174E92700176B00CB6CC8 /* CellTimestamp.hpp */,
+				10F174EE2700254A00CB6CC8 /* ClientSocket.hpp */,
+				10F174F02700288E00CB6CC8 /* CellServer.cpp */,
+				10F174F12700288E00CB6CC8 /* CellServer.hpp */,
+				10F174F427002CAA00CB6CC8 /* Configuration.hpp */,
+				10E1D47E2701845A00657C19 /* MyServer.cpp */,
+				10E1D47F2701845A00657C19 /* MyServer.hpp */,
+				10AA20872702B52D0020DD35 /* CellTask.cpp */,
+				10AA20882702B52D0020DD35 /* CellTask.hpp */,
+				10A42930270C32DD0013A31B /* CellSemaphore.cpp */,
+				10A42931270C32DD0013A31B /* CellSemaphore.hpp */,
+				10A42933270C59B90013A31B /* CellThread.cpp */,
+				10A42934270C59B90013A31B /* CellThread.hpp */,
+				109F20DC270D6B5A00258704 /* MsgBuffer.cpp */,
+				109F20DD270D6B5A00258704 /* MsgBuffer.hpp */,
+				109F20DF270D7CA200258704 /* CellLog.cpp */,
+				109F20E0270D7CA200258704 /* CellLog.hpp */,
+				109F20E3270D8F2500258704 /* CellNetWork.hpp */,
+			);
+			path = EasyTcpServer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F174D72700170200CB6CC8 /* EasyTcpServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F174DF2700170200CB6CC8 /* Build configuration list for PBXNativeTarget "EasyTcpServer" */;
+			buildPhases = (
+				10F174D42700170200CB6CC8 /* Sources */,
+				10F174D52700170200CB6CC8 /* Frameworks */,
+				10F174D62700170200CB6CC8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyTcpServer;
+			productName = EasyTcpServer;
+			productReference = 10F174D82700170200CB6CC8 /* EasyTcpServer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F174D02700170200CB6CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					10F174D72700170200CB6CC8 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 10F174D32700170200CB6CC8 /* Build configuration list for PBXProject "EasyTcpServer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F174CF2700170200CB6CC8;
+			productRefGroup = 10F174D92700170200CB6CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F174D72700170200CB6CC8 /* EasyTcpServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F174D42700170200CB6CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109F20E1270D7CA200258704 /* CellLog.cpp in Sources */,
+				10F174E72700175900CB6CC8 /* EasyTcpServer.cpp in Sources */,
+				10F174EA2700176B00CB6CC8 /* CellTimestamp.cpp in Sources */,
+				10A42932270C32DD0013A31B /* CellSemaphore.cpp in Sources */,
+				109F20DE270D6B5A00258704 /* MsgBuffer.cpp in Sources */,
+				10F174F22700288E00CB6CC8 /* CellServer.cpp in Sources */,
+				10AA20A727035F600020DD35 /* MemoryMgr.cpp in Sources */,
+				10F174DC2700170200CB6CC8 /* main.cpp in Sources */,
+				10AA20A827035F600020DD35 /* Alloctor.cpp in Sources */,
+				10A42935270C59B90013A31B /* CellThread.cpp in Sources */,
+				10AA20892702B52D0020DD35 /* CellTask.cpp in Sources */,
+				10E1D4802701845A00657C19 /* MyServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10F174DD2700170200CB6CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10F174DE2700170200CB6CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10F174E02700170200CB6CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10F174E12700170200CB6CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F174D32700170200CB6CC8 /* Build configuration list for PBXProject "EasyTcpServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F174DD2700170200CB6CC8 /* Debug */,
+				10F174DE2700170200CB6CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F174DF2700170200CB6CC8 /* Build configuration list for PBXNativeTarget "EasyTcpServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F174E02700170200CB6CC8 /* Debug */,
+				10F174E12700170200CB6CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F174D02700170200CB6CC8 /* Project object */;
+}
